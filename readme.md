@@ -44,77 +44,77 @@
 
 Ao longo deste estudo abrangente, cobrirei uma enorme quantidade de ferramentas e tecnologias, incluindo:
 
-- Python 3 - the latest version of Python
+- [x] Python 3 - the latest version of Python
 
-- PyCharm, Jupyter Notebook, Google Colab
+- [x] PyCharm, Jupyter Notebook, Google Colab
 
-- Python Scripting and Automation
+- [x] Python Scripting and Automation
 
- - Python Game Development
+ - [x] Python Game Development
 
-- Web Scraping
+- [x] Web Scraping
 
-- Beautiful Soup
+- [x] Beautiful Soup
 
-- Selenium Web Driver
+- [x] Selenium Web Driver
 
-- Request
+- [x] Request
 
-- WTForms
+- [x] WTForms
 
-- Data Science
+- [x] Data Science
 
-- Pandas
+- [x] Pandas
 
-- NumPy
+- [x] NumPy
 
-- Matplotlib
+- [x] Matplotlib
 
-- Plotly
+- [x] Plotly
 
-- Scikit learn
+- [x] Scikit learn
 
-- Seaborn
+- [x] Seaborn
 
-- Turtle
+- [x] Turtle
 
-- Python GUI Desktop App Development
+- [x] Python GUI Desktop App Development
 
-- Tkinter
+- [x] Tkinter
 
-- Front-End Web Development
+- [x] Front- [x]End Web Development
 
-- HTML 5
+- [x] HTML 5
 
-- CSS 3
+- [x] CSS 3
 
-- Bootstrap 4
+- [x] Bootstrap 4
 
-- Bash Command Line
+- [x] Bash Command Line
 
-- Git, GitHub and Version Control
+- [x] Git, GitHub and Version Control
 
-- Backend Web Development
+- [x] Backend Web Development
 
-- Flask
+- [x] Flask
 
-- REST
+- [x] REST
 
-- APIs
+- [x] APIs
 
-- Databases
+- [x] Databases
 
-- SQL
+- [x] SQL
 
-- SQLite
+- [x] SQLite
 
-- PostgreSQL
+- [x] PostgreSQL
 
-- Authentication
+- [x] Authentication
 
-- Web Design
+- [x] Web Design
 
-- Deployment with GitHub Pages, Heroku and GUnicorn
+- [x] Deployment with GitHub Pages, Heroku and GUnicorn
 
 
 
@@ -123,7 +123,7 @@ Ao longo deste estudo abrangente, cobrirei uma enorme quantidade de ferramentas 
 </h1> 
 
 |Dia|Estudos|Projeto|
-| -------- | ----------------- | -------- |
+| --------- | ----------------- | -------- |
 |1|Tipos Primitivos com Python / Entendendo A função input no  Python | Gerador de nomes para Bandas  |
 
 
