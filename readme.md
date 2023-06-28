@@ -124,7 +124,7 @@ Ao longo deste estudo abrangente, cobrirei uma enorme quantidade de ferramentas 
 
 |Dia|Estudos|Projeto|
 | --------- | ----------------- | -------- |
-|1|Tipos Primitivos com Python / Entendendo A função input no  Python | Gerador de nomes para Bandas  |
+|1|<a href="dias/dia01.md">Tipos Primitivos com Python</a> | <a href="projetos/dia01_gerador_nomes_bandas.py">Gerador de nomes para Bandas</a>  |
 
 
 <br>
