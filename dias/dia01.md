@@ -163,4 +163,4 @@ Ao aplicar esses conceitos, somos capazes de criar programas mais interativos, m
 Continuar praticando esses conceitos, resolvendo desafios de programação e explorando recursos adicionais do Python me permitirá  desenvolver habilidades sólidas de programação e expanda seu conhecimento na linguagem.
 
 
-<a href="readme.md">Página Inicial</a> 
+<a href="../readme.md">Página Inicial</a> 
