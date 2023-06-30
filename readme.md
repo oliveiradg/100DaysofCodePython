@@ -136,7 +136,7 @@ Dia | Estudos | Projeto
 
 N°. | Projetos Extras
 -- | -----------------
-01 | <a href="../python_bootcamp/extras/tela.py">Criando uma interface Gráfica com Python</a>
+01 | <a href="./extras/tela.py">Criando uma interface Gráfica com Python</a>
 
 
 <br>
