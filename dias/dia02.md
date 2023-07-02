@@ -37,13 +37,6 @@
 
 
 
-
-
-
-
-
-
-
 Neste segundo dia, foi abordado o tema dos tipos de dados em programação. Foram vistos os seguintes tipos de dados básicos:
 
 1. Strings (Cordas): Sequências de caracteres, como palavras ou frases. Pode-se acessar caracteres individuais em uma string usando índices numéricos.

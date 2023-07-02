@@ -129,6 +129,7 @@ Dia | Estudos | Projeto
 --------- | ----------------- | -------- 
 1 |<a href="dias/dia01.md">Tipos Primitivos com Python</a> | <a href="projetos/dia01_gerador_nomes_bandas.py">Gerador de nomes para Bandas</a>  
 2 | <a href="dias/dia02.md">Estruturas de dados com Python</a> | <a href="projetos/dia02_calculadora_de_gorjetas.py ">Calculadora de Gorjetas</a>
+3 | <a href="dias/dia03.md">Controle de Fluxo com Estruturas Condicionais</a> | <a href="projetos/dia03_ilha_do_tesouro.py">Ilha do Tesouro</a>
 
 ---
 
