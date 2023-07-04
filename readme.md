@@ -140,6 +140,7 @@ N°. | Projetos Extras
 -- | -----------------
 01 | <a href="./extras/tela.py">Criando uma interface Gráfica com Python</a>
 02 | <a href="./extras/odd.py">Criando um programa que mostra as horas da Sorte</a>
+03 | <a href="./extras/calculadora_do_amor.py">Criando uma Calculadora do Amor</a>
 
 
 <br>
