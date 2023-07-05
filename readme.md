@@ -150,8 +150,9 @@ N°. | Projetos Extras
 <br>
 
 
+### Estudos em Constante Atualização
+#### 
 
-
-<a href="https://github.com/oliveiradg" target="_blank"><img align="center" height="180" src="https://www.boavista.rr.leg.br/imagens/emconstruo.jpg/image" /></a>
+<a href="https://github.com/oliveiradg" target="_blank"><img align="center" height="180" src="https://img.pikbest.com/png-images/20190918/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" /></a>
 
 </div>
