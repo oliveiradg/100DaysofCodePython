@@ -131,6 +131,7 @@ Dia | Estudos | Projeto
 2 | <a href="dias/dia02.md">Estruturas de dados com Python</a> | <a href="projetos/dia02_calculadora_de_gorjetas.py ">Calculadora de Gorjetas</a>
 3 | <a href="dias/dia03.md">Controle de Fluxo com Estruturas Condicionais</a> | <a href="projetos/dia03_ilha_do_tesouro.py">Ilha do Tesouro</a>
 4 | <a href="dias/dia04.md">Erros de índice e listas aninhadas</a> | <a href="projetos/dia04_pedra_papel_tesoura.py">Pedra, Papel e Tesoura</a>
+5 | <a href="dias/dia05.md">Coneceitos de Loops </a> | <a href="projetos/dia05_gerador_de_senhas.py">Gerador de PassWords seguras </a>
 
 ---
 
