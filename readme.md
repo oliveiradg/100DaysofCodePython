@@ -12,7 +12,7 @@
 <br>
 #100daysofcode
 
-##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="JBOliveira" height="20" width="20" /></a> 
+##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="JBOliveira" height="20" width="20" /></a> 
 
   
 </p>
@@ -156,3 +156,10 @@ N°. | Projetos Extras
 <a href="https://github.com/oliveiradg" target="_blank"><img align="center" height="180" src="https://img.pikbest.com/png-images/20190918/cartoon-snail-loading-loading-gif-animation_2734139.png!bw700" /></a>
 
 </div>
+
+<br>
+<br>
+<br>
+Feito com ❤ para os #100daysOfPython 
+
+

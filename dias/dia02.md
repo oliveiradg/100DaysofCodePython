@@ -12,7 +12,7 @@
 <br>
 #100daysofcode
 
-##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="JBOliveira" height="20" width="20" /></a> 
+##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="JBOliveira" height="20" width="20" /></a> 
 
   
 </p>
@@ -157,5 +157,12 @@ Por fim, foram discutidas as F-strings, que oferecem uma maneira conveniente de 
 
 No geral, o módulo forneceu uma base sólida para quem deseja iniciar sua jornada na programação em Python. Os conceitos abordados são essenciais para o desenvolvimento de programas funcionais e eficientes, e oferecem uma base sólida para a exploração de tópicos mais avançados. Com o conhecimento adquirido, os programadores têm as ferramentas necessárias para criar soluções e automatizar tarefas usando a linguagem Python.
 
+
+<br>
+<br>
+<br>
+Feito com ❤ para os #100daysOfPython 
+<br>
+<br>
 
 <a href="../readme.md">Página Inicial</a> 

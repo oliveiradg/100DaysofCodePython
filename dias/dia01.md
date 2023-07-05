@@ -12,7 +12,7 @@
 <br>
 #100daysofcode
 
-##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="JBOliveira" height="20" width="20" /></a> 
+##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="JBOliveira" height="20" width="20" /></a> 
 
   
 </p>
@@ -162,5 +162,12 @@ Ao aplicar esses conceitos, somos capazes de criar programas mais interativos, m
 
 Continuar praticando esses conceitos, resolvendo desafios de programação e explorando recursos adicionais do Python me permitirá  desenvolver habilidades sólidas de programação e expanda seu conhecimento na linguagem.
 
+
+<br>
+<br>
+<br>
+Feito com ❤ para os #100daysOfPython 
+<br>
+<br>
 
 <a href="../readme.md">Página Inicial</a> 

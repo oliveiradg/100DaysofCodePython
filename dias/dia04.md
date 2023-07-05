@@ -12,7 +12,7 @@
 <br>
 #100daysofcode
 
-##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="JBOliveira" height="20" width="20" /></a> 
+##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="JBOliveira" height="20" width="20" /></a> 
 
   
 </p>
@@ -210,6 +210,10 @@ Durante a exploração desses conceitos, usamos exemplos práticos para ilustrar
 
 
 
+<br>
+<br>
+<br>
+Feito com ❤ para os #100daysOfPython 
 <br>
 <br>
 

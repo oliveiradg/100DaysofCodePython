@@ -12,7 +12,7 @@
 <br>
 #100daysofcode
 
-##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="JBOliveira" height="20" width="20" /></a> 
+##### Contato: <a href="https://www.linkedin.com/in/joaooliveiradg/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="JBOliveira" height="20" width="20" /></a> 
 
   
 </p>
@@ -105,7 +105,7 @@ No final, é exibido o valor total do bilhete, utilizando uma declaração impre
 
 Aqui está um exemplo de código baseado nas informações do texto:
 
-~~~~python
+~~~python
 height = float(input("Qual é a sua altura em centímetros? "))
 
 if height > 120:
@@ -125,10 +125,15 @@ if height > 120:
     print(f"O preço do seu bilhete é ${Bill}.")
 else:
     print("Você não atende aos requisitos de altura para andar na montanha-russa.")
+
 ~~~
 
 Este resumo abrange os conceitos principais do texto, explicando como verificar múltiplas condições em um código Python e implementar a funcionalidade de adicionar um valor extra à conta do bilhete com base na resposta do usuário.
 
+<br>
+<br>
+<br>
+Feito com ❤ para os #100daysOfPython 
 <br>
 <br>
 
