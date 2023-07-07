@@ -132,6 +132,7 @@ Dia | Estudos | Projeto
 3 | <a href="dias/dia03.md">Controle de Fluxo com Estruturas Condicionais</a> | <a href="projetos/dia03_ilha_do_tesouro.py">Ilha do Tesouro</a>
 4 | <a href="dias/dia04.md">Erros de índice e listas aninhadas</a> | <a href="projetos/dia04_pedra_papel_tesoura.py">Pedra, Papel e Tesoura</a>
 5 | <a href="dias/dia05.md">Coneceitos de Loops </a> | <a href="projetos/dia05_gerador_de_senhas.py">Gerador de PassWords seguras </a>
+6 | <a href="extras/my_book_shelf/readme.md">Projeto Prático </a> | <a href="extras/my_book_shelf/readme.md">MyBookShelf </a>
 
 ---
 
@@ -143,6 +144,7 @@ N°. | Projetos Extras
 02 | <a href="./extras/odd.py">Criando um programa que mostra as horas da Sorte</a>
 03 | <a href="./extras/calculadora_do_amor.py">Criando uma Calculadora do Amor</a>
 04 | <a href="./extras/love.py">Desenhando um Coração na Tela</a>
+05 | <a href="./extras/my_book_shelf/readme.md">MyBookShelf - Catalogador de Livros</a>
 
 
 <br>
