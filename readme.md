@@ -135,7 +135,7 @@ Dia | Estudos | Projeto
 6 | <a href="dias/dia06.md">Criando CRUD SQLite </a> | <a href="extras/my_book_shelf/readme.md">MyBookShelf </a>
 7 | <a href="dias/dia07.md">Frontend: Criação de frames  </a> | <a href="extras/my_book_shelf/readme.md">Projeto MyBookShelf </a>
 8 | <a href="dias/dia08.md">Frontend: Criação de labels e entry  </a> | <a href="extras/my_book_shelf/readme.md">Projeto MyBookShelf </a>
-9 | <a href="dias/dia09.md">  </a> | <a href="extras/my_book_shelf/readme.md">Projeto MyBookShelf </a>
+9 | <a href="dias/dia09.md"> criação de botões e lógica de resultado </a> | <a href="extras/my_book_shelf/readme.md">Projeto MyBookShelf </a>
 
 ---
 
