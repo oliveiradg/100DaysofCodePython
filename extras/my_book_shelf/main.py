@@ -105,8 +105,93 @@ check_lido_monica = Checkbutton(frame_central, text='Mônica', variable=lido_mon
 check_lido_monica.place(x=130, y=161)
 check_lido_joao = Checkbutton(frame_central, text='João', variable=lido_joao, onvalue=1, offvalue=0, bg=cor1, fg=cor4)
 check_lido_joao.place(x=200, y=161)
-#Criando Label
 
+# Criando Botões--------------------------------------
+
+#Criando Label
+label_carregar = Label(frame_central, text='Imagem', height=1, anchor=NW, font=('Verdana 10 bold'),bg=cor1, fg=cor4)
+label_carregar.place(x=10, y=220)
+#Criando Botão carregar
+botao_carregar = Button(frame_central, text='Carregar'.upper(), font='Verdana 8 ', width=25, compound=CENTER, anchor=CENTER, overrelief=RIDGE,  relief=RAISED, bg=cor1, fg=cor0)
+botao_carregar.place(x=130, y=220)
+
+# Criando Botão inserir
+
+img_add = Image.open("extras/my_book_shelf/assets/images/add.png")
+img_add = img_add.resize((20,20))
+img_add = ImageTk.PhotoImage(img_add)
+
+botao_inserir = Button(frame_central, image=img_add, text=' Adicionar'.upper(), font='Verdana 8 ', width=95, compound=LEFT, anchor=NW, overrelief=RIDGE,  relief=RAISED, bg=cor1, fg=cor0)
+botao_inserir.place(x=330, y=10)
+
+# Criando Botão alterar
+img_alterar = Image.open("extras/my_book_shelf/assets/images/alterar.png")
+img_alterar = img_alterar.resize((20,20))
+img_alterar = ImageTk.PhotoImage(img_alterar)
+botao_alterar = Button(frame_central, image=img_alterar, text=' Alterar'.upper(), font='Verdana 8 ', width=95, compound=LEFT, anchor=NW, overrelief=RIDGE,  relief=RAISED, bg=cor1, fg=cor0)
+botao_alterar.place(x=330, y=50)
+
+# Criando Botão excluir
+img_excluir = Image.open("extras/my_book_shelf/assets/images/excluir.png")
+img_excluir = img_excluir.resize((20,20))
+img_excluir = ImageTk.PhotoImage(img_excluir)
+botao_excluir = Button(frame_central, image=img_excluir, text=' Excluir'.upper(), font='Verdana 8 ', width=95, compound=LEFT, anchor=NW, overrelief=RIDGE,  relief=RAISED, bg=cor1, fg=cor0)
+botao_excluir.place(x=330, y=90)
+
+# Botão Ver Imagem
+img_ver = Image.open("extras/my_book_shelf/assets/images/ver.png")
+img_ver = img_ver.resize((20,20))
+img_ver = ImageTk.PhotoImage(img_ver)
+botao_ver = Button(frame_central, image=img_ver, text='Ver Imagem'.upper(), font='Verdana 8 ', width=95, compound=LEFT, anchor=NW, overrelief=RIDGE,  relief=RAISED, bg=cor1, fg=cor0)
+botao_ver.place(x=330, y=215)
+
+####################################
+
+# Labels Quantidade total
+label_total = Label(frame_central, width=15, text='', height=2, anchor=CENTER, font=('Verdana 10 bold'), bg=cor7, fg=cor1)
+label_total.place(x=450, y=17)
+label_total_text = Label(frame_central, text='   Total de Livros    ', height=1, anchor=NW, font=('Verdana 10 bold'), bg=cor7, fg=cor1)
+label_total_text.place(x=450, y=12)
+
+# creating a treeview with dual scrollbars 'ID', 'Título', 'Autor', 'Editora', 'Saga', 'Adquirido', 'Lido'
+# tabela -----------------------------------------------------------
+# creating a treeview with dual scrollbars
+tabela_head = ['#ID', 'Título', 'Autor', 'Editora', 'Saga', 'Adquirido', 'Lido']
+
+lista_itens = []
+
+global tree
+tree = ttk.Treeview(frame_rodape, selectmode="extended", columns=tabela_head, show="headings")
+
+# vertical scrollbar
+vsb = ttk.Scrollbar(frame_rodape, orient="vertical", command=tree.yview)
+
+# horizontal scrollbar
+hsb = ttk.Scrollbar(frame_rodape, orient="horizontal", command=tree.xview)
+
+tree.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+tree.grid(column=0, row=0, sticky='nsew')
+vsb.grid(column=1, row=0, sticky='ns')
+hsb.grid(column=0, row=1, sticky='ew')
+frame_rodape.grid_rowconfigure(0, weight=12)
+
+hd = ["center", "center", "center", "center", "center", "center", "center", 'center']
+h = [40, 150, 100, 160, 130, 100, 100, 100]
+n = 0
+
+for col in tabela_head:
+    tree.heading(col, text=col.title(), anchor=CENTER)
+    # adjust the column's width to the header string
+    tree.column(col, width=h[n], anchor=hd[n])
+    n += 1
+
+# inserindo os itens dentro da tabela
+for item in lista_itens:
+    tree.insert('', 'end', values=item)
+
+total_livros = len(lista_itens)
+
+label_total['text'] = str(total_livros)
 
 
 janela.mainloop()
