@@ -29,7 +29,7 @@ cor9 = "#e9edf5"  # + Verde
 
 janela = Tk()
 janela.title("")
-janela.geometry("800x600")  # largura, altura
+janela.geometry("900x600")  # largura, altura
 janela.configure(background=cor9)
 janela.resizable(width=False, height=False) #impede de alterar tam da janela
 
@@ -39,13 +39,13 @@ style.theme_use("clam")
 # Criando Frames --------------------------------------------------------------
 
 
-frame_topo = Frame(janela, width=800, height=50, bg=cor1, relief=FLAT)
+frame_topo = Frame(janela, width=900, height=50, bg=cor1, relief=FLAT)
 frame_topo.grid(row=0, column=0)
 
-frame_central = Frame(janela, width=800, height=300, bg=cor1, pady=20, relief=FLAT)
+frame_central = Frame(janela, width=900, height=300, bg=cor1, pady=20, relief=FLAT)
 frame_central.grid(row=1, column=0, pady=1, padx=0, sticky=NSEW)
 
-frame_rodape = Frame(janela, width=800, height=300, bg=cor1, relief=FLAT)
+frame_rodape = Frame(janela, width=900, height=300, bg=cor1, relief=FLAT)
 frame_rodape.grid(row=2, column=0, pady=0, padx=1, sticky=NSEW)
 
 # Criando Funnções--------------------------------------------------------------------------------
@@ -61,17 +61,18 @@ def inserir():
     editora = entry_editora.get()
     ano = entry_ano.get_date()
     saga = entry_saga.get()
-    lido_monica = check_lido_monica.get()
-    lido_joao = check_lido_joao.get()
+    lido_monica = entry_lido_monica.get()
+    lido_joao = entry_lido_joao.get()
+    
     imagem = imagem_string
     
-    lista_inserir = [titulo, genero, autor, editora, ano, saga, imagem],
+    lista_inserir = [titulo, genero, autor, editora, saga, lido_monica, lido_joao, imagem],
     
     for i in lista_inserir:
         if i == '' :
             messagebox.showerror('Erro', 'preencha todos os campos')
             return
-# titulo, genero, autor, saga, editora, lido_monica, lido_joao, imagem
+# titulo, genero, autor, saga, editora, ano,  lido_monica, lido_joao, imagem
 
         inserir_form(lista_inserir)
         messagebox.showinfo('Sucesso', 'Os Dados foram inseridos com sucesso')
@@ -82,8 +83,9 @@ def inserir():
         entry_editora.delete(0, END)
         entry_ano.delete(0, END)
         entry_saga.delete(0, END)
-        check_lido_monica.set(0)
-        check_lido_joao.set(0)
+        entry_lido_monica(0, END)
+        entry_lido_joao(0, END)
+      
        
         for widget in frame_central.winfo_children():
             widget.destroy()
@@ -160,19 +162,23 @@ label_ano.place(x=10, y=100)
 entry_ano = DateEntry(frame_central, width=12,Background='darkblue',borderwidth=2, year=2000)
 entry_ano.place(x=130, y=101)
 
-#Criando checkbox lido_monica e lido_joao 
-lido_monica = IntVar()
-lido_joao = IntVar()
-lido_monica.set(0)
-lido_joao.set(0)
+
 #Criando Label
-label_lido = Label(frame_central, text='Lido', height=1, anchor=NW, font=('Verdana 10 bold'),bg=cor1, fg=cor4)
-label_lido.place(x=10, y=160)
-#Criando Checkbutton
-check_lido_monica = Checkbutton(frame_central, text='Mônica', variable=lido_monica, onvalue=1, offvalue=0, bg=cor1, fg=cor4)
-check_lido_monica.place(x=130, y=161)
-check_lido_joao = Checkbutton(frame_central, text='João', variable=lido_joao, onvalue=1, offvalue=0, bg=cor1, fg=cor4)
-check_lido_joao.place(x=200, y=161)
+label_lido_joao = Label(frame_central, text='Lido João:', height=1, anchor=NW, font=('Verdana 10 bold'),bg=cor1, fg=cor4)
+label_lido_joao.place(x=10, y=190)
+# Criando Entry (entrada)
+entry_lido_joao = Entry(frame_central, width=30, justify='left', relief=SOLID)
+entry_lido_joao.place(x=130, y=191)
+
+label_lido_monica = Label(frame_central, text='Lido Mônica:', height=1, anchor=NW, font=('Verdana 10 bold'),bg=cor1, fg=cor4)
+label_lido_monica.place(x=10, y=160)
+# Criando Entry (entrada)
+entry_lido_monica = Entry(frame_central, width=30, justify='left', relief=SOLID)
+entry_lido_monica.place(x=130, y=161)
+
+
+
+
 
 # Criando Botões--------------------------------------
 
@@ -230,7 +236,7 @@ label_total_text.place(x=450, y=12)
 def mostrar():
 
     # creating a treeview with dual scrollbars
-    tabela_head = ['#ID', 'Título', 'Autor', 'Editora', 'Saga', 'Adquirido', 'Lido']
+    tabela_head = ['#ID', 'Título', 'Autor', 'Editora', 'Saga', 'Adquirido', 'Lido Mônica', 'Lido João']
 
     lista_itens = []
 

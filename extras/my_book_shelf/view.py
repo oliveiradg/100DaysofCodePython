@@ -9,20 +9,16 @@ import sqlite3 as sql
 
 conexao = sql.connect('my_book_shelf.db')
 
+
 # INSERINDO DADOS
 def inserir_form(i):
     with conexao:
         controle = conexao.cursor()
-        query = "INSERT INTO mybookshelf(titulo, genero, autor, saga, editora, lido_monica, lido_joao, imagem) VALUES(?,?,?,?,?,?,?,?)"
+        query = "INSERT INTO mybookshelf(titulo, genero, autor, ano, saga, editora, lido_monica, lido_joao, imagem) VALUES(?,?,?,?,?,?,?,?,?)"
+        controle.execute(query, i)
+     
        
-        # Criando a lista com os valores
-        lista_inserir = [i['titulo'], i['genero'], i['autor'], i['saga'], i['editora'], i['lido_monica'], i['lido_joao'], i['imagem']]
-
-         
-       
-        controle.execute(query, lista_inserir)
-
-
+ 
 
 # VER DADOS
 
