@@ -3,6 +3,7 @@ import sqlite3 as sql
 
 
 
+
 ### CRUD ###
 
 # criando conexão

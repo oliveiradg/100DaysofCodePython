@@ -54,19 +54,20 @@ global tree
 # Função Inserir
 def inserir():
 
+    global imagem, imagem_string, label_imagem
+
     
     titulo = entry_titulo.get()
     genero =  entry_genero.get()
     autor = entry_autor.get()
+    saga = entry_saga.get()
     editora = entry_editora.get()
     ano = entry_ano.get_date()
-    saga = entry_saga.get()
     lido_monica = entry_lido_monica.get()
     lido_joao = entry_lido_joao.get()
-    
     imagem = imagem_string
     
-    lista_inserir = [titulo, genero, autor, editora, saga, lido_monica, lido_joao, imagem],
+    lista_inserir = [titulo, genero, autor, saga, editora, ano,  lido_monica, lido_joao, imagem],
     
     for i in lista_inserir:
         if i == '' :
@@ -74,23 +75,23 @@ def inserir():
             return
 # titulo, genero, autor, saga, editora, ano,  lido_monica, lido_joao, imagem
 
-        inserir_form(lista_inserir)
-        messagebox.showinfo('Sucesso', 'Os Dados foram inseridos com sucesso')
+    inserir_form(lista_inserir)
+    messagebox.showinfo('Sucesso', 'Os Dados foram inseridos com sucesso')
 
-        entry_titulo.delete(0, END)
-        entry_genero.delete(0,END)
-        entry_autor.delete(0, END)
-        entry_editora.delete(0, END)
-        entry_ano.delete(0, END)
-        entry_saga.delete(0, END)
-        entry_lido_monica(0, END)
-        entry_lido_joao(0, END)
+    entry_titulo.delete(0, END)
+    entry_genero.delete(0,END)
+    entry_autor.delete(0, END)
+    entry_editora.delete(0, END)
+    entry_ano.delete(0, END)
+    entry_saga.delete(0, END)
+    entry_lido_monica.delete(0, END)
+    entry_lido_joao.delete(0, END)
       
        
-        for widget in frame_central.winfo_children():
-            widget.destroy()
+    for widget in frame_central.winfo_children():
+        widget.destroy()
 
-        mostrar()
+    mostrar()
 
 # Função para escolher Imagem
 def escolher_imagem():
@@ -233,15 +234,63 @@ label_total_text.place(x=450, y=12)
 
 # tabela -----------------------------------------------------------
 
+# def mostrar():
+
+#     # creating a treeview with dual scrollbars
+#     tabela_head = ['#ID', 'Título', 'Autor', 'Editora', 'Saga', 'Adquirido', 'Lido Mônica', 'Lido João']
+
+#     lista_itens = []
+
+
+#     tree = ttk.Treeview(frame_rodape, selectmode="extended", columns=tabela_head, show="headings")
+
+#     # vertical scrollbar
+#     vsb = ttk.Scrollbar(frame_rodape, orient="vertical", command=tree.yview)
+
+#     # horizontal scrollbar
+#     hsb = ttk.Scrollbar(frame_rodape, orient="horizontal", command=tree.xview)
+
+#     tree.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+#     tree.grid(column=0, row=0, sticky='nsew')
+#     vsb.grid(column=1, row=0, sticky='ns')
+#     hsb.grid(column=0, row=1, sticky='ew')
+#     frame_rodape.grid_rowconfigure(0, weight=12)
+
+#     hd = ["center", "center", "center", "center", "center", "center", "center", 'center']
+#     h = [40, 150, 100, 160, 130, 100, 100, 100]
+#     n = 0
+
+#     for col in tabela_head:
+#         tree.heading(col, text=col.title(), anchor=CENTER)
+#         # adjust the column's width to the header string
+#         tree.column(col, width=h[n], anchor=hd[n])
+#         n += 1
+
+#     # inserindo os itens dentro da tabela
+#     for item in lista_itens:
+#         tree.insert('', 'end', values=item)
+
+#     total_livros = len(lista_itens)
+
+#     label_total['text'] = str(total_livros)
+
+# mostrar()
+
+
+# funcao para mostrar
+
 def mostrar():
 
+    #titulo, genero, autor, ano, saga, editora, lido_monica, lido_joao,
+
     # creating a treeview with dual scrollbars
-    tabela_head = ['#ID', 'Título', 'Autor', 'Editora', 'Saga', 'Adquirido', 'Lido Mônica', 'Lido João']
+    tabela_head = ['#ID','titulo', 'genero', 'autor', 'saga', 'editora', 'ano',  'lido_monica', 'lido_joao']
 
     lista_itens = []
 
+    global tree
 
-    tree = ttk.Treeview(frame_rodape, selectmode="extended", columns=tabela_head, show="headings")
+    tree = ttk.Treeview(frame_rodape, selectmode="extended",columns=tabela_head, show="headings")
 
     # vertical scrollbar
     vsb = ttk.Scrollbar(frame_rodape, orient="vertical", command=tree.yview)
@@ -249,31 +298,41 @@ def mostrar():
     # horizontal scrollbar
     hsb = ttk.Scrollbar(frame_rodape, orient="horizontal", command=tree.xview)
 
+
     tree.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
     tree.grid(column=0, row=0, sticky='nsew')
     vsb.grid(column=1, row=0, sticky='ns')
     hsb.grid(column=0, row=1, sticky='ew')
-    frame_rodape.grid_rowconfigure(0, weight=12)
+    frame_central.grid_rowconfigure(0, weight=12)
 
-    hd = ["center", "center", "center", "center", "center", "center", "center", 'center']
-    h = [40, 150, 100, 160, 130, 100, 100, 100]
-    n = 0
+    hd=["center","center","center","center","center","center","center", 'center']
+    h=[40,150,100,160,130,100,100, 100]
+    n=0
 
     for col in tabela_head:
         tree.heading(col, text=col.title(), anchor=CENTER)
-        # adjust the column's width to the header string
-        tree.column(col, width=h[n], anchor=hd[n])
-        n += 1
 
-    # inserindo os itens dentro da tabela
+       
+
+        n+=1
+
     for item in lista_itens:
         tree.insert('', 'end', values=item)
 
-    total_livros = len(lista_itens)
 
-    label_total['text'] = str(total_livros)
+    quantidade = []
+
+    for iten in lista_itens:
+        quantidade.append(iten[6])
+
+
+    Total_valor = sum(quantidade)
+    Total_itens = len(quantidade)
+
+    label_total['text'] = str(Total_itens)
 
 mostrar()
+
 
 
 janela.mainloop()
