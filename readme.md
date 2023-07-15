@@ -42,79 +42,23 @@
 
 </div>
 
-Ao longo deste estudo abrangente, cobrirei uma enorme quantidade de ferramentas e tecnologias, incluindo:
+# Estudo Abrangente de Ferramentas e Tecnologias
 
-- [x] Python 3 - the latest version of Python
+Neste estudo abrangente, cobrirei uma enorme quantidade de ferramentas e tecnologias. Aqui está uma visão geral das áreas abordadas:
 
-- [x] PyCharm, Jupyter Notebook, Google Colab
+| Área                         | Ferramentas e Tecnologias        |
+|------------------------------|----------------------------------|
+| Python 3                     | PyCharm, Jupyter Notebook, Google Colab, Python Scripting and Automation, Python Game Development, Web Scraping, Beautiful Soup, Selenium Web Driver, Request, WTForms |
+| Data Science                 | Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, Seaborn, Turtle |
+| Python GUI Desktop App Development | Tkinter, CustomTkinter |
+| Front-End Web Development    | HTML 5, CSS 3, Bootstrap 4       |
+| Web+                         |         Django                   |
+| Version Control              |         Git, GitHub              |
+| Backend Web Development      | Flask, REST, APIs, Databases (SQL, SQLite, PostgreSQL), Authentication |
+| Web Design                   |                                  |
+| Deployment                   | GitHub Pages, Heroku, GUnicorn   |
 
-- [x] Python Scripting and Automation
 
- - [x] Python Game Development
-
-- [x] Web Scraping
-
-- [x] Beautiful Soup
-
-- [x] Selenium Web Driver
-
-- [x] Request
-
-- [x] WTForms
-
-- [x] Data Science
-
-- [x] Pandas
-
-- [x] NumPy
-
-- [x] Matplotlib
-
-- [x] Plotly
-
-- [x] Scikit learn
-
-- [x] Seaborn
-
-- [x] Turtle
-
-- [x] Python GUI Desktop App Development
-
-- [x] Tkinter
-
-- [x] Front- [x]End Web Development
-
-- [x] HTML 5
-
-- [x] CSS 3
-
-- [x] Bootstrap 4
-
-- [x] Bash Command Line
-
-- [x] Git, GitHub and Version Control
-
-- [x] Backend Web Development
-
-- [x] Flask
-
-- [x] REST
-
-- [x] APIs
-
-- [x] Databases
-
-- [x] SQL
-
-- [x] SQLite
-
-- [x] PostgreSQL
-
-- [x] Authentication
-
-- [x] Web Design
-
-- [x] Deployment with GitHub Pages, Heroku and GUnicorn
 
 
 <div align="center">
