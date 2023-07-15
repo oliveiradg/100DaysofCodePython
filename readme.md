@@ -137,7 +137,7 @@ Dia | Estudos | Projeto
 8 | <a href="dias/dia08.md">Frontend: Criação de labels e entry  </a> | <a href="extras/my_book_shelf/readme.md">Projeto MyBookShelf </a>
 9 | <a href="dias/dia09.md"> criação de botões e lógica de resultado </a> | <a href="extras/my_book_shelf/readme.md">Projeto MyBookShelf </a>
 10 | <a href="dias/dia10.md"> Controle de Fluxos </a> | <a href="projetos/dia10_maquina_de_cafe.py">Projeto Máquina de Café </a>
-11 | <a href="dias/dia11.md"> Estudo CustomTKinter </a> | <a href="./extras/janela_login.py">Projeto Máquina de Café </a>
+11 | <a href="dias/dia11.md"> Estudo CustomTKinter </a> | <a href="./extras/janela_login.py"> Tela de Login Customizada </a>
 
 ---
 
