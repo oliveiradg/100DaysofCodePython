@@ -95,3 +95,13 @@ Em resumo, o estudo sobre classes personalizadas em Python abrangeu a criação 
    - Exemplo: Vou definir o valor padrão de zero para o atributo "followers" na classe "Usuario".
 
 Esses são os principais conceitos abordados no estudo de hoje. Aprendi a criar classes personalizadas, criar objetos a partir delas, adicionar atributos aos objetos, utilizar construtores para inicializar os atributos e definir valores padrão para os atributos.
+
+
+<br>
+<br>
+<br>
+Feito com ❤ para os #100daysOfPython 
+<br>
+<br>
+
+<a href="../readme.md">Página Inicial</a> 
