@@ -119,4 +119,5 @@ N°. | Projetos Extras
 <br>
 Feito com ❤ para os #100daysOfPython 
 
+Hoje é 22/07/2023 🎈'Feliz Aniversário pra Mim!' 🎈
 
